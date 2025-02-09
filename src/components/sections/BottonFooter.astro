@@ -1,0 +1,19 @@
+---
+const {svg, name,color,hrf}  = Astro.props
+import { Icon } from "astro-icon/components";
+---
+
+<section class="flex justify-center items-center">
+    <a
+      href={hrf}
+      target="_blank"
+      class="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#5aabed] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413] "
+    >
+    <Icon name={svg} class="size-8"/>
+      <span
+        class="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700"
+      >
+        {name}
+      </span>
+    </a>
+  </section>

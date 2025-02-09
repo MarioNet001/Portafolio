@@ -1,0 +1,67 @@
+---
+import ItemsSkills from '../ItemsSkills.astro'
+import { softSkills } from '../../config/cv.json';
+import ItemsSoftSkills from './itemsSoftSkills.astro';
+---
+
+<section  id="skills" class="bg-background">
+    <div class="container px-6 py-8 mx-auto">
+        <h1 class="text-3xl font-semibold text-center capitalize lg:text-4xl">
+            Mis Skill
+        </h1>
+
+        <p class="mt-4 text-center text-offset">
+            Estas son las habilidades que he cultivado con esfuerzo, dedicación y corazón a lo largo de mi camino
+        </p>     
+        <div class=" flex flex-col lg:flex-row lg:space-x-12  gap-2 mt-7">
+            <div class="lista items-list-light lg:w-1/2 mb-12 lg:mb-0">
+                <h2 class="text-2xl font-semibold text-center mt-4 py-4 ">Hard Skills</h2>
+                <div class ="grid grid-cols-2 gap-2 sm:gap-4 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-3 mb-8" >
+                    <ItemsSkills name='HTML' svg="HTML"></ItemsSkills>
+                    <ItemsSkills name='CSS' svg="CSS"></ItemsSkills>
+                    <ItemsSkills name='Javascript' svg="Js"></ItemsSkills>
+                    <ItemsSkills name='Node Js' svg="Node"></ItemsSkills>
+                    <ItemsSkills name='MySql' svg="Mysql"></ItemsSkills>
+                    <ItemsSkills name='React' svg="React"></ItemsSkills>
+                    <ItemsSkills name='Astro' svg="Astro"></ItemsSkills>
+                    <ItemsSkills name='Angular' svg="Angular"></ItemsSkills>
+                    <ItemsSkills name='Python' svg="Python"></ItemsSkills>
+                    <ItemsSkills name='Talwind' svg="Talwind"></ItemsSkills>
+                    <ItemsSkills name='MongoDB' svg="Mongo"></ItemsSkills>
+                    <ItemsSkills name='Git' svg="Git"></ItemsSkills>
+                    <ItemsSkills name='Express' svg="Express"></ItemsSkills>
+                    <ItemsSkills name='Spring Boot' svg="Spring"></ItemsSkills>
+                    <ItemsSkills name='GitHub' svg="Github-color"></ItemsSkills>
+                </div>
+               
+            </div>
+            <div class="lista items-list-light  lg:w-1/2 mb-12 lg:mb-0">
+                <h2 class="text-2xl font-semibold text-center mt-4">Soft Skills</h2>
+                <div class="flex flex-col justify-center  gap-12 m-6">
+                    {
+                         softSkills.map((item) => (
+                            <ItemsSoftSkills text={item.text} key={item.text}></ItemsSoftSkills>
+                        ))
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<style>
+    .items-list-dark {
+     border-radius: 10px;
+ background: linear-gradient(315deg, #0f1623, #121a2a);
+ box-shadow:  -20px -20px 23px #0a0e17,
+              20px 20px 23px #182237;
+    }
+ 
+    .items-list-light {
+     border-radius: 12px;
+ background: linear-gradient(315deg, #eeeff0, #ffffff);
+ box-shadow:  -29px -29px 23px #b6b7b7,
+              29px 29px 23px #ffffff;
+    }
+ </style>

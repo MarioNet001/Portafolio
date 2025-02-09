@@ -6,28 +6,29 @@ import { Icon } from 'astro-icon/components'
     font-medium rounded-lg border bg-background
     text-text shadow-sm hover:bg-background-offset
     focus:outline-none focus:bg-background-offset">
-    <div id="icon-theme-light">
-        <Icon id='toggle-theme-icon' name={'Sun'} />
-    </div>
     <div id="icon-theme-dark">
         <Icon id='toggle-theme-icon' name={'Moon'} />
     </div>
+    <div id="icon-theme-light">
+        <Icon id='toggle-theme-icon' name={'Sun'} />
+    </div>
 </button>
 
-<script>
-    import { toggleMarkdownTheme, updateToggleThemeIcon } from "../scripts/theme";
 
+<script>
+    import { toggleMarkdownTheme, updateToggleThemeIcon, updateCardTheme } from "../scripts/theme";
     const button = document.getElementById('toggle-theme-button');
     const getCurrentTheme = () => document.documentElement.dataset.theme;
-
+    updateCardTheme()
     button?.addEventListener('click', () => {
         const newTheme = getCurrentTheme() === 'dark' ? 'light' : 'dark';
-
         document.documentElement.dataset.theme = newTheme;
         localStorage.setItem('theme', newTheme);
         updateToggleThemeIcon();
         toggleMarkdownTheme(newTheme);
+        updateCardTheme()
     });
 
     updateToggleThemeIcon();
+  
 </script>

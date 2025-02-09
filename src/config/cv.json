@@ -1,42 +1,42 @@
 {
     "basic": {
-        "name": "Paul Smith",
-        "job": "Software Engineer",
-        "summary": "Transforming challenges into opportunities with cutting-edge technology. Driven by a love for elegant, robust code.",
-        "cv_file_name": "paul_cv.pdf"
+        "name": "Mario Torres Garcia",
+        "job": "Developer ",
+        "summary": "Soy un joven profesional, entusiasta, innovador y apasionado por la tecnología. Me especializo en el campo del la programación, fascinado por cómo la tecnología informática ha transformado y mejorado la calidad de vida a nivel global en los últimos años. ",
+        "cv_file_name": "CV-Mario-Torres-Garcia.pdf"
     },
     "experiences": [
         {
-            "title": "Senior Software Engineer",
-            "sub_title": "Tech Solutions Inc.",
+            "title": "Scrum Master",
+            "sub_title": "Agilethought /Citibanamex.",
             "years": "2021 - Present",
-            "details": "Led the development of a scalable e-commerce platform that increased sales by 30%. Worked with modern technologies including React, Node.js, and AWS."
+            "details": "Mis actividades principales Fueron: Asesoramiento y capacitación a los miembros del equipo en la adaptación de marco scrum como metodología de trabajo, Guiar el seguimiento de todas las ceremonias que marca scrum. Detección y resolución temprana de incidentes reportados por el equipo (falta de insumos, revisiones de código, falta de permisos). Revisión y cumplimiento de los estándares de calidad marcados por citi."
         },
         {
-            "title": "Software Engineer",
-            "sub_title": "Innovate Labs",
-            "years": "2018 - 2021",
-            "details": "Developed and maintained web applications for various clients. Key contributor in migrating legacy systems to cloud infrastructure."
+            "title": "Business Analyst ",
+            "sub_title": "gilethought /Citibanamex",
+            "years": "Agosto 2021 – Diciembre 2021",
+            "details": "Mis actividades principales Fueron: Apoya a la asignación de prioridades de negocio. Se gestiona es uso de herramientas solicitadas por los integrantes del equipo. Compilar gráficos, tablas y otros elementos de visualización de datos."
         },
         {
             "title": "Junior Developer",
-            "sub_title": "Creative Apps Studio",
-            "years": "2015 - 2018",
-            "details": "Worked on mobile app development, collaborating with design teams to create user-friendly applications."
+            "sub_title": ". PH DEVICES R&D S.A DE C.V",
+            "years": "Febrero 2020- Mayo2 021",
+            "details": "Mis actividades principales Fueron: Análisis y diseño del maquetado de un sitio web(mockup). Construcción de aplicaciones web full-stack mediante el paquete MEAN ( MogoDB, Express, Angularjs y Nodejs). Creación de un nuevo plug-in para la plataforma de prestashop "
         }
     ],
     "education": [
         {
-            "title": "Bachelor of Science in Computer Science",
-            "sub_title": "University of Modern Tech",
-            "years": "2015 - 2019",
-            "details": "Graduated with honors. Specialized in software development, data structures, and algorithms. Worked on various open-source projects and completed internships in tech companies."
+            "title": "Lic. En Ciencias Computacionales",
+            "sub_title": "Universidad Autónoma del Estado de Hidalgo UAEH-ICBI",
+            "years": "2015 – 2020",
+            "details": ""
         },
         {
-            "title": "Master of Science in Software Engineering",
-            "sub_title": "Global Tech Institute",
-            "years": "2019 - 2021",
-            "details": "Focused on advanced algorithms, cloud computing, and full-stack development. Published research papers on scalable microservices architecture."
+            "title": "Certificaciones-cursos",
+            "sub_title": "",
+            "years": "2020 - 2024",
+            "details": "Google Cloud Fundamentals - Google \n SCRUM Master Professional Certificate SMPC- CertiProf  \n Master en Frameworks JavaScript (Angular, React y Vue). Udemy. Marzo - 2022. \nJava Orientado a Objetos. Platzi. Julio -.2023 \n Academia de JavaScrip. Plazi julio-2024 \n Patrones de diseño y buenas prácticas. julio-2024"
         }
     ],
     "projects": [
@@ -57,6 +57,29 @@
             "title": "paul.com",
             "type": "Website",
             "link": "https://github.com/wasutz/astro-resume-theme"
+        }
+    ],
+    "softSkills" : [
+        {
+            "text": "Manejo de metodología ágil: Scrum, Kanban."
+        },
+        {
+            "text": "Excelentes habilidades de comunicación y trabajo colaborativo."
+        },
+        {
+            "text": "Seguimiento a equipos Multidisciplinarios de desarrollo."
+        },
+        {
+            "text": "Gestión de proyectos: Coordinación de equipos, cumplimiento de plazos."
+        },
+        {
+            "text": "Mentoría: Transmisión de conocimientos a otros desarrolladores."
+        },
+        {
+            "text": "Investigación y aprendizaje continuo."
+        },
+        {
+            "text": "Análisis y seguimiento en el ciclo de vida de los proyectos."
         }
     ]
 }

@@ -15,6 +15,8 @@
     "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.15.1",
     "astro-icon": "^1.1.1",
+    "astro-resume-theme": "file:",
+    "canvas-confetti": "^1.9.3",
     "tailwindcss": "^3.4.10",
     "typescript": "^5.5.4"
   },

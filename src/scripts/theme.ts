@@ -29,3 +29,20 @@ export const toggleMarkdownTheme = (newTheme: string) => {
         contentElement.classList.remove('prose-invert');
     }
 };
+
+export const updateCardTheme = () => {
+    const currentTheme = getCurrentTheme()
+    let lists = document.querySelectorAll(".lista")
+    if(currentTheme ==="dark" ){
+        lists.forEach((list) =>{
+            list.classList.add("items-list-dark")
+            list.classList.remove("items-list-light")
+        })
+    }else {
+        lists.forEach((list) =>{
+            list.classList.add("items-list-light")
+            list.classList.remove("items-list-dark")
+        })
+       
+    }
+}

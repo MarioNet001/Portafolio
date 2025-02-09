@@ -2,7 +2,7 @@
 const { title, sub_title, years, details } = Astro.props;
 ---
 
-<li class="p-5 bg-background-offset shadow-lg rounded-xl border border-default">
+<li class=" lista items-list-light p-5 bg-background-offset shadow-lg rounded-xl border border-default" >
   <div class="flex flex-col sm:flex-row justify-between items-start">
     <div class="mb-4 sm:mb-0">
       <h3 class="text-2xl font-semibold">{title}</h3>
@@ -10,5 +10,20 @@ const { title, sub_title, years, details } = Astro.props;
     </div>
     <p class="text-sm text-offset sm:text-right whitespace-nowrap">{years}</p>
   </div>
-  <p class="mt-4 text-offset leading-relaxed">{details}</p>
+  <p style="white-space: pre-line" class="mt-4 text-offset leading-relaxed">{details}</p>
 </li>
+<style>
+   .items-list-dark {
+    border-radius: 10px;
+background: linear-gradient(315deg, #0f1623, #121a2a);
+box-shadow:  -20px -20px 23px #0a0e17,
+             20px 20px 23px #182237;
+   }
+
+   .items-list-light {
+    border-radius: 12px;
+background: linear-gradient(315deg, #eeeff0, #ffffff);
+box-shadow:  -29px -29px 23px #b6b7b7,
+             29px 29px 23px #ffffff;
+   }
+</style>

@@ -1,0 +1,14 @@
+---
+const {svg, name}  = Astro.props
+import { Icon } from "astro-icon/components";
+---
+
+<section class="flex justify-center items-center h-14 m-6">
+  <button
+    class="group flex justify-center p-2 rounded-md drop-shadow-xl bg-[] from-gray-800 text-default font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]">
+    <Icon name={svg} class="size-16"/>
+    <span class="absolute opacity-0 group-hover:opacity-100 text-default group-hover:text-sm group-hover:-translate-y-7 duration-600">
+      {name}
+    </span>
+  </button>
+</section>

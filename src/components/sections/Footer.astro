@@ -1,5 +1,6 @@
 ---
-import { Icon } from "astro-icon/components";
+import { Icon } from "astro-icon/components" 
+import BottonFooter from "./BottonFooter.astro"
 ---
 
 <section class="py-10 mt-4">
@@ -7,7 +8,7 @@ import { Icon } from "astro-icon/components";
         <div class="text-center xl:flex xl:items-center xl:justify-between xl:text-left">
             <div class="xl:flex xl:items-center xl:justify-start">
                 <p class="mt-5 text-sm xl:ml-6 xl:mt-0">
-                    © 2024 Paul Smith. All Rights Reserved.
+                    © 2024 Mario Tores. All Rights Reserved.
                 </p>
             </div>
 
@@ -15,38 +16,26 @@ import { Icon } from "astro-icon/components";
                 <ul class="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 xl:justify-end">
                     <li>
                         <a href="/" title="About" class="text-sm transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">
-                            About
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/blogs" title="Blog" class="text-sm transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">
-                            Blog
+                            Conoceme
                         </a>
                     </li>
                 </ul>
 
                 <div class="w-full h-px mt-8 mb-5 xl:w-px xl:m-0 xl:h-6 bg-border"></div>
 
-                <ul class="flex items-center justify-center space-x-8 xl:justify-end">
+                <ul class="flex items-center justify-center space-x-8 xl:justify-end text-default">
                     <li>
-                        <a href="https://github.com/wasutz/astro-resume-theme" title="Github" target="_blank" rel="noopener noreferrer"
-                           class="block transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">
-                            <Icon name="Github" />
-                        </a>
+                        <BottonFooter name = "whatsApp" svg ="Whatsapp" hrf="https://wa.me/525579154175?text=Como%20va%20el%20d%C3%ADa%20"></BottonFooter>
                     </li>
-
+                    
                     <li>
-                        <a href="https://facebook.com" title="Facebook" target="_blank" rel="noopener noreferrer"
-                           class="block transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">
-                            <Icon name="Facebook" />
-                        </a>
+                        <BottonFooter name = "Correo" svg ="Mail" hrf="mailto:to325712@gmail.com"></BottonFooter>
                     </li>
-
                     <li>
-                        <a href="https://instagram.com" title="Instagram" target="_blank" rel="noopener noreferrer"
-                           class="block transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">
-                            <Icon name="Instagram" />
-                        </a>
+                        <BottonFooter name = "Github" svg ="Github" hrf="https://github.com/MarioNet001"></BottonFooter>
+                    </li>
+                    <li>
+                        <BottonFooter name="Instagram" svg="Instagram" hrf="https://www.instagram.com/mariotg10?igsh=MWxpcWJ6MTl2eHRyMA=="></BottonFooter>
                     </li>
                 </ul>
             </div>
