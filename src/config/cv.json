@@ -41,23 +41,34 @@
     ],
     "projects": [
         {
-            "imageUrl": "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=764&auto=format&fit=crop",
-            "title": "hello.com",
-            "type": "Website",
-            "link": "https://github.com/wasutz/astro-resume-theme"
+            "imageUrl": "../../public/proyectos/gato.png",
+            "title": "new-gato.com",
+            "type": "github",
+            "github": "https://github.com/MarioNet001/Juego-del-gato-.git",
+            "link": "https://gato-new-game.netlify.app/"
         },
         {
-            "imageUrl": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=764&auto=format&fit=crop",
-            "title": "Paul UI kit collections",
-            "type": "UI Kit",
-            "link": "https://github.com/wasutz/astro-resume-theme"
+            "imageUrl": "../../public/proyectos/mini-proyectos.png",
+            "title": "Mini-Proyectos HTML, CSS y JS",
+            "type": "github",
+            "github": "https://github.com/MarioNet001/Ejercicios-HTML--CSS-y-JS.git",
+            "link": "https://ejemplos-html-net.netlify.app/"
         },
         {
-            "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=764&auto=format&fit=crop",
-            "title": "paul.com",
-            "type": "Website",
-            "link": "https://github.com/wasutz/astro-resume-theme"
+            "imageUrl": "../../public/proyectos/desarga.png",
+            "title": "DonwLoader",
+            "type": "github",
+            "github":"https://github.com/MarioNet001/front-donwloader.git",
+            "link": "https://donwloader-make.netlify.app/"
+        },
+        {
+            "imageUrl": "../../public/proyectos/cv.png",
+            "title": "Portafolio",
+            "type": "github",
+            "github":"https://github.com/MarioNet001/Portafolio.git",
+            "link": "https://mariotorres.netlify.app/"
         }
+
     ],
     "softSkills" : [
         {
