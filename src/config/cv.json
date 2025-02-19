@@ -41,7 +41,7 @@
     ],
     "projects": [
         {
-            "imageUrl": "../../public/proyectos/gato.png",
+            "imageUrl": "./../../public/proyectos/gato.png",
             "title": "new-gato.com",
             "type": "github",
             "github": "https://github.com/MarioNet001/Juego-del-gato-.git",
