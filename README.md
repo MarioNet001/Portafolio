@@ -1,32 +1,55 @@
-# Astro Resume Theme
+# 🚀 Portafolio Mario Torres Garcia
 
-Astro Resume Theme is a fully customizable and responsive template, built to help you create a beautiful online resume or portfolio with ease. It is powered by Astro and styled using Tailwind CSS, making it fast, modern, and easy to work with.
+## 📝 Descripción
+eta paguina web es demostrativa y contienen las experiencias laborales  y educativas de mi persona asi como algunos proyectos los cuales e tenido la fortuna de desarollarlos 
+y tambien contiene tanto mis habilidades tecnicas y habilidades blandas.
 
-## Usage
+## ✨ Características Principales
+-Tailwind CSS: Utiliza un enfoque de estilos basado en utilidades para un desarrollo rápido de interfaces de usuario.
+-Modo Oscuro: Incluye un botón integrado para alternar al modo oscuro y mejorar la experiencia del usuario (UX).
+-Personalización de Tema: Fácilmente ajustable en src/styles/theme.css.
+-Diseño Responsivo: Optimizado para dispositivos móviles, tabletas y escritorios.
+-Soporte MDX: Permite publicaciones de blog escritas en Markdown con componentes JSX.
 
-You can bootstrap a new Astro project using the following command:
+## 🛠️ Tecnologías Utilizadas
+### Frontend
+- TailwindCSS
+- Vite
+- Astro
 
-```bash
-# Bun
-bun create astro@latest --template wasutz/astro-resume-theme
+### Herramientas de Desarrollo
+- Git para control de versiones
+- nettify
+- ESLint para linting
 
-# npm 7+
-npm create astro@latest -- --template wasutz/astro-resume-theme
+## 🚀 Uso
+paguina demostrativa tipo CV/portafolio de Mario Tores Garcia.
 
-# pnpm
-pnpm dlx create-astro --template wasutz/astro-resume-theme
+## 🌐 Demo
+Puedes ver una demo en vivo de la aplicación [aquí](https://mariotorres.netlify.app/)
 
-# yarn
-yarn create astro --template wasutz/astro-resume-theme
-```
+## 📱 Capturas de Pantalla
+![Captura 1](https://github.com/MarioNet001/Portafolio/blob/777855823c9c39f92c9a7394402f43a4f761580c/public/pantalla%201.png)
+*inicio*
+![Captura 2](https://github.com/MarioNet001/Portafolio/blob/777855823c9c39f92c9a7394402f43a4f761580c/public/pantalla%202.png)
+*skills*
 
-## 🚀 Features
 
-- Tailwind CSS: Utilizes utility-first styling for rapid UI development.
-- Dark Mode: Built-in dark mode toggle for better UX.
-- Theme Customization: Easily adjustable in src/styles/theme.css.
-- Responsive Design: Optimized for mobile, tablet, and desktop devices.
-- MDX Support: Allows blog posts written in Markdown with JSX components.
+## 📝 Licencia
+Este proyecto está bajo la licencia MIT - mira el archivo [LICENSE.md](LICENSE.md) para más detalles.
+
+## 👥 Autores
+- **Mario torres ** - *Trabajo Inicial* - [MarioNet001](https://github.com/MarioNet001)
+
+
+## 📞 Contacto
+- Email - to325712@gmail.com
+
+## 📊 Estado del Proyecto
+![Estado del Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Versión](https://img.shields.io/badge/version-1.0.0-blue)
+![Licencia](https://img.shields.io/badge/license-MIT-green)
+
 
 ## 🧞 Commands
 
@@ -42,25 +65,6 @@ All commands are run from the root of the project, from a terminal:
 | `bun run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `bun run astro -- --help` | Get help using the Astro CLI                     |
 
-# Getting Started
 
-1) Initialize the project
-Run one of the commands listed in the Quick Start section.
-
-2) Customize your resume data
-Edit your resume data in `src/config/cv.json`
-
-3) Customize theme colors
-Modify the color scheme by editing `src/styles/theme.ts` to match your personal branding.
-
-4) Replace your CV file
-Put your cv file in `src/public/cv` and then replace the file name in `src/config/cv.json` (basic.cv_file_name)
-
-5) Run the project locally
-Once you’ve made your customizations, run the development server:
-
-```
-bun run dev
-```
 
 Open http://localhost:4321 in your browser to view the result 🚀
