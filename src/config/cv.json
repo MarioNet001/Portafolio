@@ -41,28 +41,28 @@
     ],
     "projects": [
         {
-            "imageUrl": "./../../public/proyectos/gato.png",
+            "imageUrl": "../../proyectos/gato.png",
             "title": "new-gato.com",
             "type": "github",
             "github": "https://github.com/MarioNet001/Juego-del-gato-.git",
             "link": "https://gato-new-game.netlify.app/"
         },
         {
-            "imageUrl": "../../public/proyectos/mini-proyectos.png",
+            "imageUrl": "../../proyectos/mini-proyectos.png",
             "title": "Mini-Proyectos HTML, CSS y JS",
             "type": "github",
             "github": "https://github.com/MarioNet001/Ejercicios-HTML--CSS-y-JS.git",
             "link": "https://ejemplos-html-net.netlify.app/"
         },
         {
-            "imageUrl": "../../public/proyectos/desarga.png",
+            "imageUrl": "../../proyectos/desarga.png",
             "title": "DonwLoader",
             "type": "github",
             "github":"https://github.com/MarioNet001/front-donwloader.git",
             "link": "https://donwloader-make.netlify.app/"
         },
         {
-            "imageUrl": "../../public/proyectos/cv.png",
+            "imageUrl": "../../proyectos/cv.png",
             "title": "Portafolio",
             "type": "github",
             "github":"https://github.com/MarioNet001/Portafolio.git",
